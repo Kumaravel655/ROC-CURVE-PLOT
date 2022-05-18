@@ -43,7 +43,6 @@ from sklearn.model_selection import train_test_split
 url = "https://raw.githubusercontent.com/Statology/Python-Guides/main/default.csv"
 data = pd.read_csv(url)
 
-
 x=data[['student','balance','income']]
 
 y=data['default']
@@ -57,7 +56,6 @@ fpr,tpr, _ = metrics.roc_curve(y_test,y_pred_proba)
 plt.plot(fpr,tpr)
 plt.ylabel("True Positive Rate")
 plt.xlabel("False Positive Rate")
-
 plt.show()
 
 #define metrics
