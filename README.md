@@ -28,8 +28,8 @@ On the other hand, if our classifier is predicting whether someone has a termina
 ```
 /*
 Program to plot Receiver Operating Characteristic [ROC] Curve.
-Developed by   : Gowri M
-RegisterNumber :  212220230019
+Developed by   : Kumaravel V
+RegisterNumber :  212220230027
 */
 ```
 ```python
